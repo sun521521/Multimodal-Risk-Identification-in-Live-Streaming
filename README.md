@@ -10,6 +10,7 @@
 
 **适用场景**：直播平台内容安全
 ## 项目结构
+.
 ├── config.py # 配置文件（API Key，策略开关）
 ├── risk_strategy.py # 核心策略逻辑（预筛选、提示词、模型调用）
 ├── main_api.py # FastAPI 服务入口
@@ -24,6 +25,7 @@
 ### 2. 安装依赖
 ```bash
 pip install -r requirements.txt
+```
 
 ### 3. 配置
 # 推荐使用Mock模式（不消耗真实API）进行功能演示
