@@ -24,6 +24,7 @@
 ### 2. 安装依赖
 ```bash
 pip install -r requirements.txt
+
 ### 3. 配置
 # 推荐使用Mock模式（不消耗真实API）进行功能演示
 ENABLE_MOCK_MODE = True   # 改为 False 则使用真实 OpenAI API
